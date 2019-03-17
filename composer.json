@@ -1,0 +1,48 @@
+{
+  "name": "milanarandjelovic/noty",
+  "description": "Noty notification package for Laravel",
+  "license": "MIT",
+  "keywords": [
+    "noty",
+    "notification",
+    "messages",
+    "alerts",
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "Milan Arandjelovic"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.7",
+    "phpunit/phpunit": "^6.2|^7.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "MA\\Noty\\": "src/"
+    },
+    "files": [
+      "src/Helpers/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MA\\Noty\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MA\\Noty\\NotyServiceProvider"
+      ],
+      "aliases": {
+        "Noty": "MA\\Noty\\Facades\\Noty"
+      }
+    }
+  }
+}
