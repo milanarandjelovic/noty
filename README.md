@@ -1,5 +1,13 @@
 # Noty notification package for Laravel
 
+<p align="center">
+  <a href="https://travis-ci.org/milanarandjelovic/noty"><img src="https://travis-ci.org/milanarandjelovic/noty.svg?branch=master"></a>
+  <a href="https://packagist.org/packages/milanarandjelovic/noty"><img src="https://poser.pugx.org/milanarandjelovic/noty/v/stable.svg?format=flat" alt="Latest Stable Release"></a>
+  <a href="https://packagist.org/packages/milanarandjelovic/noty"><img src="https://poser.pugx.org/milanarandjelovic/noty/v/unstable.svg?format=flat" alt="Latest Unstable Release"></a>
+  <a href="https://packagist.org/packages/milanarandjelovic/noty"><img src="https://poser.pugx.org/milanarandjelovic/noty/license.svg?format=flat" alt="License"></a>
+  <a href="https://packagist.org/packages/milanarandjelovic/noty"><img src="https://poser.pugx.org/milanarandjelovic/noty/downloads.svg?format=flat" alt="Total Downloads"></a>
+</p>
+
 ## Installation Steps
 
 ### Require the package
